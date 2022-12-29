@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/work/Hex_Sequencing_Computer/TESTBENCH
+vhex_sequencing_computer_top
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1672352606
+!i10b 1
+!s100 2XC=o5_b;AQfYXhWYGfJZ0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJHkN>k_n2<lgG>`>FWlJX2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/work/PIC24/TESTBENCH
+w1672352061
+8C:/work/PIC24/RTL/pic24_top.sv
+FC:/work/PIC24/RTL/pic24_top.sv
+!i122 1
+L0 10 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672352605.000000
+!s107 C:/work/PIC24/RTL/pic24_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/pic24_top.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vtb_pic24_top
+R0
+R1
+!i10b 1
+!s100 ]j`mF8^6d8Jniz<?QZ?^n1
+R2
+IRZ26jEkbAi]l7ogRHMD>]2
+R3
+S1
+R4
+w1672352600
+8C:/work/PIC24/TESTBENCH/tb_pic24_top.sv
+FC:/work/PIC24/TESTBENCH/tb_pic24_top.sv
+!i122 2
+L0 10 42
+R5
+r1
+!s85 0
+31
+!s108 1672352606.000000
+!s107 C:/work/PIC24/TESTBENCH/tb_pic24_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/TESTBENCH/tb_pic24_top.sv|
+!i113 1
+R6
+R7

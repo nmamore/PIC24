@@ -1,0 +1,15 @@
+../TESTBENCH/tb_pic24_top.sv {1 {vlog -work work -sv -stats=none C:/work/PIC24/TESTBENCH/tb_pic24_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_pic24_top
+
+Top level modules:
+	tb_pic24_top
+
+} {} {}} ../RTL/pic24_top.sv {1 {vlog -work work -sv -stats=none C:/work/PIC24/RTL/pic24_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hex_sequencing_computer_top
+
+Top level modules:
+	hex_sequencing_computer_top
+
+} {} {}}
