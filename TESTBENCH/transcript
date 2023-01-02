@@ -1,6 +1,86 @@
 # Compile of pic24_top.sv was successful.
-# Compile of tb_pic24_top.sv failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
+# Compile of tb_pic24_top.sv was successful.
+# Compile of latch_24bit.sv failed with 1 errors.
+# Compile of program_counter.sv failed with 4 errors.
+# Compile of rom.sv failed with 2 errors.
+# Compile of rom_mem.svh failed with 1 errors.
+# 6 compiles, 4 failed with 8 errors.
+# Compile of latch_24bit.sv was successful.
+# Compile of program_counter.sv failed with 4 errors.
+# Compile of program_counter.sv failed with 2 errors.
+# Compile of program_counter.sv was successful.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of program_counter.sv was successful.
+# Compile of rom_mem.svh failed with 1 errors.
+# Compile of rom_mem.svh was successful.
+# Compile of rom.sv was successful.
 # Compile of pic24_top.sv was successful.
 # Compile of tb_pic24_top.sv was successful.
-# 2 compiles, 0 failed with no errors.
+# Compile of latch_24bit.sv was successful.
+# Compile of program_counter.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of rom_mem.svh was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_pic24_top
+# vsim -gui work.tb_pic24_top 
+# Start time: 22:45:31 on Jan 01,2023
+# Loading sv_std.std
+# Loading work.tb_pic24_top
+# Loading work.hex_sequencing_computer_top
+# Break key hit
+quit -sim
+# End time: 22:46:55 on Jan 01,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 17
+# Compile of pic24_top.sv was successful.
+# Compile of tb_pic24_top.sv was successful.
+# Compile of latch_24bit.sv was successful.
+# Compile of program_counter.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of rom_mem.svh was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.hex_sequencing_computer_top
+# vsim -gui work.hex_sequencing_computer_top 
+# Start time: 22:47:36 on Jan 01,2023
+# Loading sv_std.std
+# Loading work.hex_sequencing_computer_top
+quit -sim
+# End time: 22:47:48 on Jan 01,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_pic24_top
+# vsim -gui work.tb_pic24_top 
+# Start time: 22:48:14 on Jan 01,2023
+# Loading sv_std.std
+# Loading work.tb_pic24_top
+# Loading work.pic24_top
+# Loading work.program_counter
+# Loading work.latch_24bit
+# Loading work.rom
+# ** Error: (vsim-3063) Port 'i_clk_50M' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_pic24_top/uut File: C:/work/PIC24/TESTBENCH/tb_pic24_top.sv Line: 18
+# ** Error: (vsim-3063) Port 'i_rstn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_pic24_top/uut File: C:/work/PIC24/TESTBENCH/tb_pic24_top.sv Line: 18
+# Error loading design
+# End time: 22:48:15 on Jan 01,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# Compile of pic24_top.sv was successful.
+# Compile of tb_pic24_top.sv was successful.
+# Compile of latch_24bit.sv was successful.
+# Compile of program_counter.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of rom_mem.svh was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_pic24_top
+# vsim -gui work.tb_pic24_top 
+# Start time: 22:49:58 on Jan 01,2023
+# Loading sv_std.std
+# Loading work.tb_pic24_top
+# Loading work.pic24_top
+# Loading work.program_counter
+# Loading work.latch_24bit
+# Loading work.rom
+# End time: 22:50:14 on Jan 01,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2

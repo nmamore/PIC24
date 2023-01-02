@@ -15,7 +15,7 @@ module latch_24bit
     output logic [23:0] out_q
 );
 
-always_comb
+always_comb begin
     if (en_i) begin
         out_q = in_d;
     end

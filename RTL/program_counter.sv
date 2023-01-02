@@ -24,14 +24,13 @@ module program_counter
 
 //Internal count for PC
 //PC is only 23 bit, with LSb fixed to 0 so only 22 addresses are accessible
-logic [21:0] = pc_addr;
+logic [22:0] pc_addr;
 
 //MSb is set to 0 as all PC accesible code is below 7FFFFE
-//LSb is set to 0 to ensure only even addresses are accessed
-assign pc_addr_o = {1'b0, pc_addr, 1'b0};
+assign pc_addr_o = {1'b0, pc_addr};
 
 //Define the states
-typdef enum{
+typedef enum{
     StIdle, StReset, StInc, StLoad1, StLoad2
 } pc_state_e;
 
@@ -54,24 +53,24 @@ always_comb begin
         end
         //StReset: Reset state of PC. Sets initial address back to 0
         StReset: begin
-            pc_addr = 22'h000000;
+            pc_addr = 23'h000000;
             pc_state_d = StIdle;
         end
         //StInc: Increments the PC
         StInc: begin
-            pc_addr = 22'h000000 + 1'b1;
+            pc_addr = 23'h000000 + 2'b10;
             pc_state_d = StIdle;
         end
         //StLoad1: Loads in the LSW of the address from the databus
         StLoad1: begin
             //LSb of databus is always 0; Already added to end of PC by this file
-            pc_addr[14:0] = databus_i[15:1];
+            pc_addr[15:0] = databus_i[15:0];
             pc_state_d = StLoad2;
         end
         //StLoad2: Loads in the MSW of the address from the databus
         StLoad2: begin
             //MSb of databus is always 0; Already added to start of PC by this file
-            pc_addr [21:15] = databus_i[6:0];
+            pc_addr [22:16] = databus_i[6:0];
             pc_state_d = StIdle;
         end
         default: begin

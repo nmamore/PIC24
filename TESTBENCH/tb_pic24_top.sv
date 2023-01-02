@@ -15,9 +15,9 @@ logic pld_mclk;
 logic pld_rstn;
 
 //Instantiates FPGA top level file for test bench
-hex_sequencing_computer_top uut (
-	.i_clk_50M(pld_mclk),
-	.i_rstn(pld_rstn)
+pic24_top uut (
+	.clk50M_i(pld_mclk),
+	.rst_ni  (pld_rstn)
 );
 
 //reference clock input to system for FPGA

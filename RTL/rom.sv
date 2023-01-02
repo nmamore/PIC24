@@ -10,19 +10,19 @@
 
 
 
-module program_counter
+module rom
 (
     input  logic        clk_i,
     input  logic        rst_ni,
     
     input  logic [23:0] pc_addr_i,
-    output logic [23:0] rom_inst_o
+    output logic [23:0] rom_instr_o
 );
 
 logic [15:0] rom_LSW;
 logic [15:0] rom_MSW;
 
-assign rom_inst_o = {rom_MSW[7:0], rom_LSW};
+assign rom_instr_o = {rom_MSW[7:0], rom_LSW};
 
 `include "rom_mem.svh"
 

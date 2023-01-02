@@ -11,51 +11,177 @@ cModel Technology
 dC:/work/Hex_Sequencing_Computer/TESTBENCH
 vhex_sequencing_computer_top
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1672352606
+!s110 1672352606
 !i10b 1
 !s100 2XC=o5_b;AQfYXhWYGfJZ0
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IJHkN>k_n2<lgG>`>FWlJX2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z4 dC:/work/PIC24/TESTBENCH
+Z3 dC:/work/PIC24/TESTBENCH
 w1672352061
-8C:/work/PIC24/RTL/pic24_top.sv
-FC:/work/PIC24/RTL/pic24_top.sv
+Z4 8C:/work/PIC24/RTL/pic24_top.sv
+Z5 FC:/work/PIC24/RTL/pic24_top.sv
 !i122 1
 L0 10 8
-Z5 OV;L;2020.1;71
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
 !s108 1672352605.000000
-!s107 C:/work/PIC24/RTL/pic24_top.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/pic24_top.sv|
+Z7 !s107 C:/work/PIC24/RTL/pic24_top.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/pic24_top.sv|
 !i113 1
-Z6 o-work work -sv
-Z7 tCvgOpt 0
-vtb_pic24_top
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vlatch_24bit
 R0
-R1
+Z11 !s110 1672631344
 !i10b 1
-!s100 ]j`mF8^6d8Jniz<?QZ?^n1
+!s100 lZ`bAHcoAnX`5D[9Fil;I3
+R1
+IhGMYQ:3HHmV8IK9CKYQ3n3
 R2
-IRZ26jEkbAi]l7ogRHMD>]2
-R3
 S1
-R4
-w1672352600
-8C:/work/PIC24/TESTBENCH/tb_pic24_top.sv
-FC:/work/PIC24/TESTBENCH/tb_pic24_top.sv
-!i122 2
-L0 10 42
-R5
+R3
+w1672612030
+8C:/work/PIC24/RTL/latch_24bit.sv
+FC:/work/PIC24/RTL/latch_24bit.sv
+!i122 28
+L0 10 18
+R6
 r1
 !s85 0
 31
-!s108 1672352606.000000
+Z12 !s108 1672631343.000000
+!s107 C:/work/PIC24/RTL/latch_24bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/latch_24bit.sv|
+!i113 1
+R9
+R10
+vpic24_top
+R0
+Z13 !s110 1672631343
+!i10b 1
+!s100 KHDJReILTB?hoRUj:O7QE1
+R1
+IM1bP:6QbV4EP;G<YhSc8Q3
+R2
+S1
+R3
+w1672616176
+R4
+R5
+!i122 26
+L0 11 62
+R6
+r1
+!s85 0
+31
+R12
+R7
+R8
+!i113 1
+R9
+R10
+vprogram_counter
+R0
+R11
+!i10b 1
+!s100 8YAWfQZgZeaEh`nZHbAWM2
+R1
+IDb3h^O=20dZn0ea<O:=lV1
+R2
+S1
+R3
+w1672614556
+8C:/work/PIC24/RTL/program_counter.sv
+FC:/work/PIC24/RTL/program_counter.sv
+!i122 29
+L0 13 80
+R6
+r1
+!s85 0
+31
+Z14 !s108 1672631344.000000
+!s107 C:/work/PIC24/RTL/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/program_counter.sv|
+!i113 1
+R9
+R10
+vrom
+R0
+R11
+!i10b 1
+!s100 114B79L4CnFPHQDUQWjhV2
+R1
+I^19_ildQI05LPZWE9h]o?1
+R2
+S1
+R3
+Z15 w1672631085
+8C:/work/PIC24/RTL/rom.sv
+FC:/work/PIC24/RTL/rom.sv
+FC:\work\PIC24\RTL\rom_mem.svh
+!i122 30
+L0 13 55
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:\work\PIC24\RTL\rom_mem.svh|C:/work/PIC24/RTL/rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/rom.sv|
+!i113 1
+R9
+R10
+Xrom_mem_svh_unit
+R0
+R11
+VVBcXjF;<G2SdGMgF_^JY10
+r1
+!s85 0
+!i10b 1
+!s100 z0AgzAIG0CIlmM2UOa:o`1
+IVBcXjF;<G2SdGMgF_^JY10
+!i103 1
+S1
+R3
+R15
+8C:/work/PIC24/RTL/rom_mem.svh
+FC:/work/PIC24/RTL/rom_mem.svh
+!i122 31
+L0 8 0
+R6
+31
+R14
+!s107 C:/work/PIC24/RTL/rom_mem.svh|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/RTL/rom_mem.svh|
+!i113 1
+R9
+R10
+vtb_pic24_top
+R0
+R13
+!i10b 1
+!s100 1JgPUlZ]dWYEBY@fY0J=U1
+R1
+I6RnlLW9];5JzRm7JIR7d^3
+R2
+S1
+R3
+w1672631335
+8C:/work/PIC24/TESTBENCH/tb_pic24_top.sv
+FC:/work/PIC24/TESTBENCH/tb_pic24_top.sv
+!i122 27
+L0 10 42
+R6
+r1
+!s85 0
+31
+R12
 !s107 C:/work/PIC24/TESTBENCH/tb_pic24_top.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/work/PIC24/TESTBENCH/tb_pic24_top.sv|
 !i113 1
-R6
-R7
+R9
+R10
